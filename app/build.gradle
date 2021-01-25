@@ -13,5 +13,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'coolsms.app.SendGroupMessageExample'
+    mainClass = 'coolsms.app.SendJsonSMS'
 }

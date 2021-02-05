@@ -32,13 +32,13 @@ public class SendGroupMessageExample {
                 // Step 2. 메시지 추가
                 MessageList messages = new MessageList();
                 for( int i = 0; i < 1; i++ ) {
-                    messages.add(new Message("수신번호 #1", "발신번호", "전송할 문자를 입력하세요 #1"));
+                    Message msg = new Message("수신번호 #1", "발신번호", "전송할 문자를 입력하세요 #1");
 
                     // 커스텀 필드와 함께 메시지 추가
                     // JsonObject customFields = new JsonObject();
                     // customFields.addProperty("CustomField", "CustomValue");
                     // msg.setCustomFields(customFields);
-                    // messages.add(msg);
+                    messages.add(msg);
                 }
 
                 Call<AddMessageListModel> api2 = APIInit.getAPI().addGroupMessage(APIInit.getHeaders(), groupId, messages);

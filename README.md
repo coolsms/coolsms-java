@@ -1,6 +1,12 @@
-# COOLSMS SDK for Java
+# COOLSMS SDK for Java  
 
 [![Java 9.0](https://img.shields.io/badge/Java-v9.0-red.svg)](https://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)
+
+# 🛑 현재 해당 예제는 유지보수가 중단되었습니다!
+
+## 최신 예제 링크  
+[Java Spring Example](https://github.com/coolsms/java-sdk-v4-spring-example)
+
 
 ## 설정
 `app/config.ini` 파일의 설정이 맞는지 확인하고 적절히 수정해 주세요.
